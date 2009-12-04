@@ -1,6 +1,7 @@
 
-R : Copyright 2004, The R Foundation for Statistical Computing
-Version 2.0.0 Patched (2004-11-03), ISBN 3-900051-07-0
+R version 2.11.0 Under development (unstable) (2009-12-03 r50653)
+Copyright (C) 2009 The R Foundation for Statistical Computing
+ISBN 3-900051-07-0
 
 R is free software and comes with ABSOLUTELY NO WARRANTY.
 You are welcome to redistribute it under certain conditions.
@@ -11,7 +12,7 @@ Type 'contributors()' for more information and
 'citation()' on how to cite R or R packages in publications.
 
 Type 'demo()' for some demos, 'help()' for on-line help, or
-'help.start()' for a HTML browser interface to help.
+'help.start()' for an HTML browser interface to help.
 Type 'q()' to quit R.
 
 > library("plugdensity")
@@ -24,7 +25,7 @@ EvaHerrmann plugin density estimate
  call : plugin.density(x = faithful$waiting) 
  n =  272  ;  estimated (Gaussian) bandwidth h =  2.54455 
 List of 2
- $ x: num [1:201] 37.700 38.018 38.336 38.654 38.972 ...
+ $ x: num [1:201] 37.7 38.018 38.336 38.654 38.972 39.29 39.608 39.926 40.244 40.562 ...
  $ y: num [1:201] 0.000111744 0.000151533 0.000203187 0.000269417 0.000353343 ...
 > pd.geys$y * 1e4
   [1]   1.117438   1.515325   2.031866   2.694171   3.533434   4.584508
